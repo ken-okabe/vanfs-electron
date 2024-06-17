@@ -1,0 +1,17 @@
+{
+  "name": "vanfs-electron",
+  "version": "0.1.0",
+  "description": "VanFS+Electron F# UI&Backend",
+  "main": "main.js",
+  "scripts": {
+    "fable": "cd vanfs && dotnet fable",
+    "vitebuild": "cd vanfs && npx vite build",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Ken Okabe",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^31.0.1"
+  }
+}
